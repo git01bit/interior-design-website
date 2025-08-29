@@ -4,6 +4,10 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 library.add(fas, far, fab);
 
-function App() {}
+import Header from "./Components/Header";
+
+function App() {
+  return <Header />;
+}
 
 export default App;
