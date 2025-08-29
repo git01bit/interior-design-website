@@ -37,8 +37,8 @@ function Header() {
             onClick={toggleHamburgerMenu}
           />
 
-          <p className="rounded-full bg-teal-700 px-3 py-0.5 tracking-wider text-white">
-            2648-1537 - 021
+          <p className="bg-teal-700 px-4 py-1 tracking-wider text-white">
+            شماره تماس - 021
           </p>
         </div>
 
@@ -166,7 +166,7 @@ function Header() {
           {/* Phone number */}
           <a
             href="tel:+9821"
-            className="cursor-pointer rounded-full bg-teal-700 px-3 py-0.5 tracking-wider text-white transition-colors duration-150 ease-in-out hover:bg-teal-800"
+            className="cursor-pointer bg-teal-700 px-4 py-1 tracking-wider text-white transition-colors duration-150 ease-in-out hover:bg-teal-800"
           >
             شماره تماس - 021
           </a>
