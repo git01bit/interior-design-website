@@ -1,4 +1,5 @@
 import Header from "./Header";
+import Footer from "./Footer";
 import { Link } from "react-router";
 
 import img01 from "../assets/images/img-01.webp";
@@ -83,6 +84,8 @@ function Homepage() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }
