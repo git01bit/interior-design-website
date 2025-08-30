@@ -75,6 +75,7 @@ function Header() {
             <li>
               <NavLink
                 to={"/interior-design-website/"}
+                end
                 className={({ isActive }) =>
                   isActive ? "border-r-2 p-1 pr-2 text-teal-700" : ""
                 }
@@ -127,6 +128,7 @@ function Header() {
               <li>
                 <NavLink
                   to={"/interior-design-website/"}
+                  end
                   className={({ isActive }) =>
                     isActive
                       ? "border-b-2 p-1 pb-2 text-teal-700"

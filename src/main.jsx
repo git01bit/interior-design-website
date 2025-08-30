@@ -3,13 +3,18 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
+import ContactUs from "./Components/ContactUs.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router";
 
 const router = createBrowserRouter([
   {
-    path: "/interior-design-website",
+    path: "/interior-design-website/",
     element: <App />,
+  },
+  {
+    path: "/interior-design-website/contact-us",
+    element: <ContactUs />,
   },
 ]);
 
